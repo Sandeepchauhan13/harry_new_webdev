@@ -43,7 +43,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className="text-yellow-500">Vite + React</h1>
       {/* {showBtn ? <button>I will show when i am clicked</button> : <button>i  will be showed when clicked</button>} */}
       {showBtn ? <button>I will show when i am clicked</button> : <button> not shown</button>}
       {/* {showBtn && <button>i  will be showed when clicked</button>} */}
@@ -57,7 +57,7 @@ function App() {
       })}
       <div className="card">
         {/* this logic is toggle button to hide/show button  */}
-        <button onClick={() => setShowBtn(!showBtn)}>
+        <button className="text-xl text-yellow-400 bg-blue-600" onClick={() => setShowBtn(!showBtn)}>
          Toggle btn
         </button>
        
