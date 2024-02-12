@@ -1,0 +1,18 @@
+.navbar{
+    background-color: blue;
+    color: white;
+}
+ul, li{
+    display:flex;
+
+}
+li{
+    list-style:none;
+    
+}
+ul{
+    gap: 30px;
+}
+nav{
+    padding:10px;
+}

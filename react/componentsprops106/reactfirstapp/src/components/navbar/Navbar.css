@@ -1,0 +1,15 @@
+body{
+    background-color: yellow;
+}
+
+nav, ul{
+    display: flex;
+}
+ul{
+    gap:34px;
+    /* text-decoration: none; */
+    list-style: none;
+}
+nav{
+    padding: 20px;
+}
