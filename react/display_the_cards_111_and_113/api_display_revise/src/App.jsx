@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import Navbar from './Navbar'
+import React, {useState, useEffect} from 'react';
+import Navbar from './Navbar';
 
 const App = () => {
   const [cards, setCards] = useState([])
